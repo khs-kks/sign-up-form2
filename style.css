@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    height: 100vh;
+    background-image: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    background-color: rgb(247, 245, 245);
+}
+
+.header > p {
+    width: 65%;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    padding: 14px 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.create-account {
+    padding-left: 4rem;
+}
+
+.create-account > p {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+}
