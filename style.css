@@ -119,10 +119,20 @@ input:focus {
 
 }
 
-.error + span {
+/* .error + span {
     color: red;
     display: block;
     font-size: smaller;
+} */
+
+.nomatch {
+    color: red;
+    display: block;
+    font-size: smaller;
+}
+
+.match {
+    display: none;
 }
 
 .error {
